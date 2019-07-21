@@ -11,6 +11,8 @@ SaSpectrumDisplay and SaWaterfallDisplay show the result of spectrum analysis. T
 
 ## Changelog
 
+	1.0.2	2019-07-12
+		- variety of small changes based on code review
 	1.0.1	2019-06-02
 		- code style changes
 		- added tool-tips
