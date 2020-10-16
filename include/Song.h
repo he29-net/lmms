@@ -424,7 +424,7 @@ private:
 
 	AutomationTrack * m_globalAutomationTrack;
 
-	IntModel m_tempoModel;
+	FloatModel m_tempoModel;
 	MeterModel m_timeSigModel;
 	int m_oldTicksPerBar;
 	IntModel m_masterVolumeModel;

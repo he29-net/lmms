@@ -50,7 +50,7 @@ typedef uint32_t sample_rate_t;		// sample-rate
 typedef int16_t fpp_t;			// frames per period (0-16384)
 typedef int32_t f_cnt_t;			// standard frame-count
 typedef uint8_t ch_cnt_t;			// channel-count (0-SURROUND_CHANNELS)
-typedef uint16_t bpm_t;			// tempo (MIN_BPM to MAX_BPM)
+typedef float bpm_t;			// tempo (MIN_BPM to MAX_BPM)
 typedef uint16_t bitrate_t;		// bitrate in kbps
 typedef uint16_t fx_ch_t;			// FX-channel (0 to MAX_EFFECT_CHANNEL)
 

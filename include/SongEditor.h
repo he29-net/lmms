@@ -41,7 +41,7 @@ class QScrollBar;
 class AutomatableSlider;
 class ComboBox;
 class ComboBoxModel;
-class LcdSpinBox;
+class LcdFloatSpinBox;
 class MeterDialog;
 class Song;
 class TextFloat;
@@ -124,7 +124,7 @@ private:
 
 	QScrollBar * m_leftRightScroll;
 
-	LcdSpinBox * m_tempoSpinBox;
+	LcdFloatSpinBox * m_tempoSpinBox;
 
 	TimeLineWidget * m_timeLine;
 

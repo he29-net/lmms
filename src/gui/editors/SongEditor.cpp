@@ -42,7 +42,7 @@
 #include "DeprecationHelper.h"
 #include "embed.h"
 #include "GuiApplication.h"
-#include "LcdSpinBox.h"
+#include "LcdFloatSpinBox.h"
 #include "MainWindow.h"
 #include "MeterDialog.h"
 #include "Mixer.h"
@@ -108,7 +108,7 @@ SongEditor::SongEditor( Song * song ) :
 
 	gui->mainWindow()->addSpacingToToolBar( 40 );
 
-	m_tempoSpinBox = new LcdSpinBox( 3, tb, tr( "Tempo" ) );
+	m_tempoSpinBox = new LcdFloatSpinBox( 3, 3, tb, tr( "Tempo" ) );
 	m_tempoSpinBox->setModel( &m_song->m_tempoModel );
 	m_tempoSpinBox->setLabel( tr( "TEMPO" ) );
 	ToolTip::add( m_tempoSpinBox, tr( "Tempo in BPM" ) );
