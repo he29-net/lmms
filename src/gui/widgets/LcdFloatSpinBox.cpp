@@ -98,6 +98,7 @@ void LcdFloatSpinBox::layoutSetup(const QString &style)
 	outerLayout->setContentsMargins(0, 0, 0, 0);
 	outerLayout->setSizeConstraint(QLayout::SetFixedSize);
 	this->setLayout(outerLayout);
+	this->setFixedHeight(32);
 }
 
 
